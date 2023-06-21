@@ -18,7 +18,7 @@ int binarySearch (int arr[], int n, int x)
 }
 int main()
 {
-    int arr[]= {11,22,30,33,40,44,55,60,66,77,80,88,99};
+    int arr[]= {11,22,35,38,40,44,55,60,66,77,80,88,99};
     int n= sizeof(arr)/sizeof(arr[0]);
     int x= 99;
     int result = binarySearch(arr,n,x);
